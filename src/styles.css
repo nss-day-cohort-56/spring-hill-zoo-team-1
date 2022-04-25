@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
 body {
   font-family: sans-serif;
 }
@@ -9,8 +11,17 @@ body {
 
 .exhibits {
   flex: 2;
+  background-color: #3454D1;
+  color: #EFEFEF;
 }
 
 .concessions {
   flex: 1;
+  background-color: #D1345B;
+}
+
+header {
+  font-family: 'Tapestry', cursive;
+  font-size: 3rem;
+  text-align: center;
 }
