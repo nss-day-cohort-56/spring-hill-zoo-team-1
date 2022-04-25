@@ -21,6 +21,8 @@ const container = document.querySelector("#container")
 
 container.innerHTML = `
   ${Header()}
-  ${ExhibitList()}
-  ${Concessions()}
+  <section class="content">
+    ${ExhibitList()}
+    ${Concessions()}
+  </section>
 `

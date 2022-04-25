@@ -1,4 +1,4 @@
-/* 
+/*
   Responsibility:
     Iterate all exhibits and generate however many are
     needed with the Exhibit component
@@ -8,12 +8,14 @@ import { Exhibit } from "./exhibit.js"
 
 export const ExhibitList = () => {
   const allExhibits = getExhibits()
-  let giantHTMLString = ""
+  let giantHTMLString = "<article class='exhibits'>"
 
   for (let exhibit of allExhibits) {
     // Use += to build up the giant HTML string
     giantHTMLString += Exhibit(exhibit)
   }
+
+  giantHTMLString += "</article>"
 
   return giantHTMLString
 }
