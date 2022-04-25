@@ -40,6 +40,41 @@ const database = {
       species: "Alligator",
       food: "Clam Chowder",
       exhibitId: 4
+    },
+    {
+      id: 6,
+      name: "Christina",
+      species: "Hedgehog",
+      food: "French fries",
+      exhibitId: 1
+    },
+    {
+      id: 7,
+      name: "Bob",
+      species: "Lynx",
+      food: "Hot dogs",
+      exhibitId: 2
+    },
+    {
+      id: 8,
+      name: "Eddie",
+      species: "Giraffe",
+      food: "Cats",
+      exhibitId: 3
+    },
+    {
+      id: 9,
+      name: "Raul",
+      species: "Panda",
+      food: "Lima Beans and Bamboo",
+      exhibitId: 5
+    },
+    {
+      id: 10,
+      name: "Vojtek",
+      species: "Polish war bear",
+      food: "lit cigarettes and beer",
+      exhibitId: 5
     }
   ],
   exhibits: [
@@ -62,6 +97,11 @@ const database = {
       id: 4,
       name: "Alligator Adventure",
       indoor: false
+    },
+    {
+      id: 5,
+      name: "The Bear Cave",
+      indoor: true
     }
   ],
   concessions: [
@@ -74,6 +114,11 @@ const database = {
       id: 2,
       name: "A Little Bit Chowder Now",
       food: "Clam Chowder"
+    },
+    {
+      id: 3,
+      name: "The Beer Tap",
+      food: "Beer and lit cigarettes"
     }
   ]
 }
