@@ -1,3 +1,16 @@
 body {
   font-family: sans-serif;
 }
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.exhibits {
+  flex: 2;
+}
+
+.concessions {
+  flex: 1;
+}
